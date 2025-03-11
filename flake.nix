@@ -23,6 +23,7 @@
         version = "3119861a912fc976c4b24cfee5e41f6c32bf75c2";
         src = pkgs.fetchFromGitHub {
           # owner = "eruption-project";
+          owner = "leanderkuehnel0";
           repo = pname;
           rev = version;
           hash = "sha256-ycf8RDrH/LUSUSnm/II4DZBLIUrYbI0s1Lk9L5QYpVY=";
