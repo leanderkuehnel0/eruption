@@ -24,8 +24,7 @@
         src = pkgs.fetchFromGitHub {
           # owner = "eruption-project";
           owner = "leanderkuehnel0";
-          # repo = pname;
-          repo = "eruption-nixos";
+          repo = pname;
           rev = version;
           hash = "sha256-DlO4PQYjvnCMP9RX2S2sowb5RRBPg/beIcwuRIrYyeQ=";
         };
