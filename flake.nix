@@ -24,9 +24,10 @@
         src = pkgs.fetchFromGitHub {
           # owner = "eruption-project";
           owner = "leanderkuehnel0";
-          repo = pname;
+          # repo = pname;
+          repo = "eruption-nixos";
           rev = version;
-          hash = "sha256-ycf8RDrH/LUSUSnm/II4DZBLIUrYbI0s1Lk9L5QYpVY=";
+          hash = "sha256-DlO4PQYjvnCMP9RX2S2sowb5RRBPg/beIcwuRIrYyeQ=";
         };
         cargoLock = {
           lockFile = "${src}/Cargo.lock";
