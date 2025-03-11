@@ -26,7 +26,7 @@
           owner = "leanderkuehnel0";
           repo = pname;
           rev = version;
-          hash = "sha256-DlO4PQYjvnCMP9RX2S2sowb5RRBPg/beIcwuRIrYyeQ=";
+          hash = "sha256-ycf8RDrH/LUSUSnm/II4DZBLIUrYbI0s1Lk9L5QYpVY=";
         };
         cargoLock = {
           lockFile = "${src}/Cargo.lock";
