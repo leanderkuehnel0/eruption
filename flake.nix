@@ -25,7 +25,7 @@
           owner = "eruption-project";
           repo = pname;
           rev = version;
-          hash = "sha256-J3ov5izyachxw6g/Bx/nFsSRotN4qT1LTWAR0JQJyFs=";
+          hash = "sha256-ycf8RDrH/LUSUSnm/II4DZBLIUrYbI0s1Lk9L5QYpVY=";
         };
         cargoLock = {
           lockFile = "${src}/Cargo.lock";
